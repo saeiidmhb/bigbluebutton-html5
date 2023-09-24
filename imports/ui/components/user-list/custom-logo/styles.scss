@@ -1,0 +1,18 @@
+.separator {
+  height: 1px;
+  background-color: var(--color-gray-lighter);
+  margin-bottom: calc(var(--line-height-computed) * .5);
+}
+
+.branding {
+  padding: var(--sm-padding-x);
+  width: 100%;
+  & > img {
+    max-height: 5rem;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+  }
+}
